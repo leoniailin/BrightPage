@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en-US"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Welcome toBrightWeb​, ​Why Choose BrightWeb? Site making Site agency">
+    <meta name="description" content="​​Let’s Build Something Bright Together">
+    <title>BrightPage</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="index.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="BrightPage">
+    <meta property="og:title" content="BrightPage">
+    <meta property="og:description" content="We makes sites!">
+    <meta property="og:image" content="images/brightlogo.png">
+    <link rel="icon" href="images/favicon.png">
+    
+    
+    
+    
+    
+    
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "BrightPage",
+		"logo": "images/brightlogo.png?rand=2ae4"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:type" content="website">
+  <script>
+    function gdprConfirmed() {
+        return document.cookie.split(';').filter(function(item) {
+            var val = item.trim().split('=');
+            val = decodeURIComponent(val[1] || '');
+            try { val = JSON.parse(val); } catch (e) { val = {}; }
+            return val && val.submissions;
+        }).length;
+    }
+    function dynamicLoadScript() {
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6Lc-w_QqAAAAAEhn-ci_cJqJkSavtMTq7xSxed84';
+        script.async = true;
+        document.body.appendChild(script);
+        script.onload = function() {
+            let event = new CustomEvent("recaptchaLoaded");
+            document.dispatchEvent(event);
+        };
+    }
+    function showRecaptchaError(error) {
+        error = error || '';
+        var formError = document.querySelector('.u-form-send-error');
+
+        if (formError) {
+            formError.innerText = 'Site Owner Error: ' + error.replace(/:[\s\S]*/, '');
+            formError.style.display = 'block';
+        }
+
+        console.error('Error in grecaptcha: ', error);
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
+        if (confirmButton) {
+            confirmButton.onclick = dynamicLoadScript;
+        }
+    });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            if (!gdprConfirmed()) {
+                return;
+            }
+            dynamicLoadScript();
+        });
+    </script>
+    <script>
+        document.addEventListener("recaptchaLoaded", function() {
+            if (!gdprConfirmed()) {
+                return;
+            }
+
+            (function (grecaptcha, sitekey, actions) {
+                var recaptcha = {
+                    execute: function (action, submitFormCb) {
+                        if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
+                            showRecaptchaError('reCAPTCHA script failed to load.');
+                            return;
+                        }
+
+                        grecaptcha.execute(sitekey, {action: action}).then((token) => {
+                            if (!token) {
+                                throw new Error('Empty token received from reCAPTCHA');
+                            }
+
+                            var forms = document.getElementsByTagName('form');
+
+                            for (var i = 0; i < forms.length; i++) {
+                                var response = forms[i].querySelector('[name="recaptchaResponse"]');
+
+                                if (!response) {
+                                    response = document.createElement('input');
+                                    response.setAttribute('type', 'hidden');
+                                    response.setAttribute('name', 'recaptchaResponse');
+                                    forms[i].appendChild(response);
+                                }
+
+                                response.value = token;
+                            }
+
+                            submitFormCb();
+                        }).catch((e) => {
+                            showRecaptchaError(e.message);
+                        });
+                    },
+
+                    executeContact: function (submitFormCb) {
+                        recaptcha.execute(actions['contact'], submitFormCb);
+                    }
+                };
+
+                window.recaptchaObject = recaptcha;
+            })(
+                grecaptcha,
+                
+                '6Lc-w_QqAAAAAEhn-ci_cJqJkSavtMTq7xSxed84',
+                {'contact': 'contact'}
+            );
+        });
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="header"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="index.html" class="u-image u-logo u-image-1" data-image-width="1000" data-image-height="500">
+          <img src="images/brightlogo.png?rand=2ae4" class="u-logo-image u-logo-image-1" alt="BrightPage">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-90 u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-1-base" href="index.html" style="padding: 10px 0px;">Home</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-90 u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-1-base" href="FAQ.html" style="padding: 10px 0px;">FAQ</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-90 u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-1-base" href="Portfolio.html" style="padding: 10px 0px;">Portfolio</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="FAQ.html">FAQ</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Portfolio.html">Portfolio</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-carousel u-slide u-block-5d49-1" id="carousel-f397" data-interval="5000" data-u-ride="carousel">
+      <ol class="u-absolute-hcenter u-carousel-indicators u-block-5d49-2">
+        <li data-u-target="#carousel-f397" class="u-active u-grey-30 u-shape-circle" style="width: 10px; height: 10px;" data-u-slide-to="0"></li>
+      </ol>
+      <div class="u-carousel-inner" role="listbox">
+        <div class="u-active u-carousel-item u-clearfix u-container-align-center u-image u-shading u-section-1-1" data-image-width="900" data-image-height="420">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+              <div class="u-layout">
+                <div class="u-layout-row">
+                  <div class="u-align-left u-container-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1" title="">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                      <h1 class="u-align-left u-text u-text-1"> Welcome to<br>BrightPage
+                      </h1>
+                      <p class="u-align-left u-large-text u-text u-text-font u-text-variant u-text-2"> Let’s Build Something Bright Together</p>
+                    </div>
+                  </div>
+                  <div class="u-black u-container-align-left u-container-style u-layout-cell u-opacity u-opacity-45 u-right-cell u-size-30 u-layout-cell-2" title="">
+                    <div class="u-container-layout u-valign-middle u-container-layout-2">
+                      <div class="u-expanded-width u-form u-form-1">
+                        <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-block-f7da-11 u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" source="gsheets" style="">
+                          <div class="u-form-group u-form-name">
+                            <label for="name-7e36" class="u-form-control-hidden u-label">Name</label>
+                            <input type="text" placeholder="Enter your Name" id="name-7e36" name="name" class="u-input u-input-rectangle" required="">
+                          </div>
+                          <div class="u-form-email u-form-group">
+                            <label for="email-7e36" class="u-form-control-hidden u-label">Email</label>
+                            <input type="email" placeholder="Enter a valid email address" id="email-7e36" name="email" class="u-input u-input-rectangle" required="">
+                          </div>
+                          <div class="u-form-group u-form-message">
+                            <label for="message-7e36" class="u-form-control-hidden u-label">Message</label>
+                            <textarea placeholder="What do you want to do?" rows="4" cols="50" id="message-7e36" name="message" class="u-input u-input-rectangle" required=""></textarea>
+                          </div>
+                          <div class="u-form-group u-form-submit">
+                            <a href="#" class="u-btn u-btn-submit u-button-style u-palette-2-base u-btn-1">Submit</a>
+                            <input type="submit" value="submit" class="u-form-control-hidden">
+                          </div>
+                          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+                          <input type="hidden" value="" name="recaptchaResponse">
+                          <input type="hidden" name="formServices" value="5b0c2ccf-ddfd-435b-b0cb-c1cfd56735e2">
+                          <input type="hidden" name="siteKey" value="6Lc-w_QqAAAAAEhn-ci_cJqJkSavtMTq7xSxed84">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-hidden u-text-grey-30 u-block-5d49-3" href="#carousel-f397" role="button" data-u-slide="prev">
+        <span aria-hidden="true">
+          <svg class="u-svg-link" viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+        </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-hidden u-text-grey-30 u-block-5d49-4" href="#carousel-f397" role="button" data-u-slide="next">
+        <span aria-hidden="true">
+          <svg class="u-svg-link" viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+        </span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-41ea">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-default-xxl u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0"> Why Choose BrightWeb? </h2>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-base u-container-style u-list-item u-repeater-item u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <h3 class="u-text u-text-2"> Tailored Web Solutions</h3>
+                <p class="u-text u-text-3"> We don’t believe in one-size-fits-all. Every website we create is custom-designed to reflect your unique brand and goals.</p>
+              </div>
+            </div>
+            <div class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-base u-container-style u-list-item u-repeater-item u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <h3 class="u-text u-text-4"> Cutting-Edge Technology</h3>
+                <p class="u-text u-text-5"> From responsive design to seamless user experiences, we leverage the latest tools and technologies to ensure your site is fast, secure, and future-proof.</p>
+              </div>
+            </div>
+            <div class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-base u-container-style u-list-item u-repeater-item u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <h3 class="u-text u-text-6"> Creative Design</h3>
+                <p class="u-text u-text-7"> Our team of talented designers and developers work together to craft visually stunning websites that leave a lasting impression.</p>
+              </div>
+            </div>
+            <div class="u-border-3 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-base u-container-style u-list-item u-repeater-item u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <h3 class="u-text u-text-8"> Results-Driven Approach </h3>
+                <p class="u-text u-text-9"> We don’t just build websites – we build strategies. Our focus is on delivering websites that convert visitors into customers and drive measurable results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-grey-5 u-section-3" id="sec-a593">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0">
+          <span style="font-weight: 700;"></span>Pick&nbsp;The&nbsp;Best Pricing&nbsp;Plan
+        </h2>
+        <p class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="200">Vel risus commodo viverra maecenas accumsan lacus vel facilisis. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cras semper auctor neque vitae tempus quam.</p>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row" style="">
+              <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-left-cell u-radius-12 u-shape-round u-size-20-lg u-size-20-xl u-size-30-md u-size-30-sm u-size-30-xs u-white u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="200">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h4 class="u-text u-text-default u-text-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Landing Page </h4>
+                  <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-1-base u-text-4">
+                    <span style="font-size: 2.25rem;">$</span> 47
+                  </h3>
+                  <h6 class="u-custom-font u-font-pt-sans u-text u-text-default u-text-grey-50 u-text-5">Simple Business Card Website </h6>
+                  <div class="u-border-1 u-border-grey-15 u-expanded-width u-line u-line-horizontal u-line-1"></div>
+                  <p class="u-text u-text-grey-50 u-text-6"> Beautiful site</p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-2"></div>
+                  <p class="u-text u-text-grey-50 u-text-7">Admin-page for management </p>
+                  <div class="u-border-1 u-border-grey-15 u-expanded-width u-line u-line-horizontal u-line-3"></div>
+                  <p class="u-text u-text-grey-50 u-text-8">1 page </p>
+                  <div class="u-border-1 u-border-grey-15 u-expanded-width u-line u-line-horizontal u-line-4"></div>
+                  <p class="u-text u-text-grey-50 u-text-9">Development period​: 1 week</p>
+                  <a href="#" class="u-active-white u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-palette-1-base u-btn u-button-style u-hover-white u-palette-1-base u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-1">Order a site</a>
+                </div>
+              </div>
+              <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius u-shape-round u-size-20-lg u-size-20-xl u-size-30-md u-size-30-sm u-size-30-xs u-white u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="600">
+                <div class="u-container-layout u-container-layout-2">
+                  <h4 class="u-text u-text-default u-text-10" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Internet-marker </h4>
+                  <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-1-base u-text-11" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+                    <span style="font-size: 2.25rem;">$</span>150
+                  </h3>
+                  <h6 class="u-custom-font u-font-pt-sans u-text u-text-default u-text-grey-50 u-text-12">Heading Here</h6>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-5"></div>
+                  <p class="u-text u-text-grey-50 u-text-13"> Beautiful site</p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-6"></div>
+                  <p class="u-text u-text-grey-50 u-text-14"> SEO marketing </p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-7"></div>
+                  <p class="u-text u-text-grey-50 u-text-15">Working payment systems</p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-8"></div>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-9"></div>
+                  <p class="u-text u-text-grey-50 u-text-16">With catalog and goods </p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-10"></div>
+                  <p class="u-text u-text-grey-50 u-text-17"> Development period​: 2-3 week</p>
+                  <a href="#" class="u-active-white u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-palette-1-base u-btn u-button-style u-hover-white u-palette-1-base u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2"> Order a site<br>
+                  </a>
+                </div>
+              </div>
+              <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius u-right-cell u-shape-round u-size-20-lg u-size-20-xl u-size-60-md u-size-60-sm u-size-60-xs u-white u-layout-cell-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="200">
+                <div class="u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-container-layout-3">
+                  <h4 class="u-text u-text-default u-text-18">Business page</h4>
+                  <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-1-base u-text-19" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+                    <span style="font-size: 2.25rem;">$<span style="font-size: 3rem;">90</span>
+                    </span>
+                  </h3>
+                  <h6 class="u-custom-font u-font-pt-sans u-text u-text-default u-text-palette-1-base u-text-20"> Multi-page site.<br>Helps solve business problems.
+                  </h6>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-11"></div>
+                  <p class="u-text u-text-grey-50 u-text-21"> Beautiful site</p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-12"></div>
+                  <p class="u-text u-text-grey-50 u-text-22"> SEO marketing </p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-13"></div>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-14"></div>
+                  <p class="u-text u-text-grey-50 u-text-23">Working contact form </p>
+                  <div class="u-border-1 u-border-grey-25 u-expanded-width u-line u-line-horizontal u-line-15"></div>
+                  <p class="u-text u-text-grey-50 u-text-24"> Development period​: 1.5 week</p>
+                  <a href="#" class="u-active-white u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-palette-1-base u-btn u-button-style u-hover-white u-palette-1-base u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-3"> choose plan<br>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-section-4" id="block-3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Our Customers</h2>
+        <p class="u-text u-text-2"> They already trust us!</p>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-1">
+                <img alt="" class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" data-image-width="644" data-image-height="186" src="images/temaxmd.png" data-href="http://temax.md/">
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-2">
+                <img alt="" class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" data-image-width="453" data-image-height="274" src="images/raspil.png" data-href="https://raspil.md/">
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-3">
+                <img alt="" class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-3" data-image-width="300" data-image-height="300" src="images/2019_07_24_13_22_51_logo_fb.png" data-href="https://www.scgmd.com/">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-section-5" id="block-4">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                <h4 class="u-align-center u-text u-text-1"> 24/7 Support</h4>
+                <span class="u-align-center u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xlink:href="#svg-938a"></use></svg><svg class="u-svg-content" viewBox="0 0 128 128" id="svg-938a"><path d="m118.6 47.8h-61.2c-5.2 0-9.4 4.2-9.4 9.3v35.7c0 5.1 4.2 9.3 9.4 9.3h37.5l16.8 16.8c2.5 2.5 6.8 0.7 6.8-2.8v-10-3.9h0.1c5.2 0 9.4-4.2 9.4-9.3v-35.8c0-5.1-4.2-9.3-9.4-9.3zm1.2 45c0 0.7-0.5 1.2-1.2 1.2h-5.2c-1.6 0-2.9 1.2-3.1 2.8v9.2l-11.2-11.2c-0.5-0.5-1.3-0.8-2-0.8h-39.7c-0.7 0-1.2-0.5-1.2-1.2v-35.7c0-0.7 0.5-1.2 1.2-1.2h61.3c0.7 0 1.2 0.5 1.2 1.2v35.7z"></path><path d="m38.1 67.7c-1 0-2 0.4-2.7 1-0.1 0-0.1 0.1-0.2 0.2l-14.7 15.1v-12.5c-0.2-2.1-1.9-3.8-4-3.8h-6.9c-0.9 0-1.6-0.7-1.6-1.6v-48.3c0-0.9 0.7-1.6 1.6-1.6h80.8c0.9 0 1.6 0.7 1.6 1.6v30.1h8v-30.1c0-5.4-4.3-9.8-9.6-9.8h-80.8c-5.3 0-9.6 4.4-9.6 9.8v48.3c0 5.4 4.3 9.8 9.6 9.8h2.9v8.1 10c0 3.6 4.4 5.3 6.9 2.8l6.8-7 13.6-13.9h8.2v-8.2h-9.9z"></path></svg></span>
+                <p class="u-align-center u-text u-text-default u-text-2"> We provide round-the-clock assistance to ensure your website runs smoothly at all times. Whether it’s a technical issue or a quick question, our team is always here to help.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                <h4 class="u-align-center u-text u-text-3"> Easy-to-Edit Websites</h4>
+                <span class="u-align-center u-icon u-icon-circle u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xlink:href="#svg-0c87"></use></svg><svg class="u-svg-content" viewBox="0 0 128 128" id="svg-0c87"><path d="m102.7 39.2c0.8 0 1.5 0.3 2.1 0.9l7.8 7.8c4.8 4.8 7.7 11.5 7.4 18.3-0.6 12.6-11 22.6-23.7 22.6h-29c-0.1 0-0.1-0.1-0.1-0.2 1.1-3 4.1-5.2 7.5-5.2h10.5c0.9 0 1.8-0.4 2.3-1.1 0.8-1.1 0.7-2.6-0.3-3.5l-24.9-24.8c-0.6-0.6-0.9-1.3-0.9-2.1s0.3-1.5 0.9-2.1 1.3-0.8 2.1-0.8 1.5 0.3 2.1 0.8l16.9 16.9c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.3-1.4-0.8-1.9l-6.7-6.7c-0.6-0.6-0.9-1.3-0.9-2.1s0.3-1.5 0.9-2.1 1.3-0.8 2.1-0.8 1.5 0.3 2.1 0.8l4 4c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.3-1.4-0.8-1.9l-2.7-2.7c-0.5-0.5-0.8-1.2-0.8-2s0.3-1.5 0.9-2.1 1.3-0.9 2.1-0.9 1.5 0.3 2.1 0.9l2.7 2.7c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.2-1.3-0.7-1.8c-0.8-0.9-1.2-2.1-0.8-3.3 0.5-1.3 1.6-1.9 2.8-1.9m0-8c-2.9 0-5.7 1.1-7.8 3.2-0.7 0.7-1.2 1.4-1.7 2.1 0 0-0.1 0.1-0.1 0-0.4 0-0.8-0.1-1.1-0.1-2.9 0-5.7 1.1-7.8 3.2-1 1-1.8 2.2-2.3 3.4 0 0 0 0.1-0.1 0.1-2.6 0.2-5.1 1.3-6.9 3.2l-0.2 0.2-2.5-2.5c-2-2-4.9-3.2-7.8-3.2s-5.7 1.1-7.8 3.2-3.2 4.9-3.2 7.8c0 3 1.2 5.7 3.2 7.8l15.8 15.8c0.1 0.1 0 0.2-0.1 0.2-5.8 0.8-10.8 4.8-12.8 10.5-1.9 5.2 2 10.7 7.5 10.7h29.1c8.5 0 16.4-3.3 22.4-9.3 6.1-6.1 9.4-14.3 9.3-23-0.1-8.4-3.8-16.4-9.8-22.4l-7.8-7.8c-1.8-2-4.6-3.1-7.5-3.1z"></path><path d="m82.1 118c0 1.1-0.9 2-2 2h-70.2c-1.1 0-2-0.9-2-2v-108c0-1.1 0.9-2 2-2h70.1c1.1 0 2 0.9 2 2v16.9c0 2.2 1.8 4 4 4s4-1.8 4-4v-16.9c0-5.5-4.5-10-9.9-10h-70.2c-5.4 0-9.9 4.5-9.9 10v108c0 5.5 4.5 10 9.9 10h70.1c5.5 0 9.9-4.5 9.9-10v-10.6c0-2.2-1.8-4-4-4s-4 1.8-4 4v10.6z"></path></svg></span>
+                <p class="u-align-center u-text u-text-default u-text-4"> We design websites with user-friendly interfaces, making it simple for you to update content, add new pages, or make changes without needing technical expertise.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                <h4 class="u-align-center u-text u-text-5"> Expert Website Development</h4>
+                <span class="u-align-center u-icon u-icon-circle u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xlink:href="#svg-e012"></use></svg><svg class="u-svg-content" viewBox="0 0 128 128" id="svg-e012"><path d="m78.9 15.9c2.1 0 3.7 1.7 3.7 3.7v3.7h-37.2v-3.7c0-2 1.7-3.7 3.7-3.7h29.8m39.7 14.8-11.6 34.5c-0.5 1.5-1.9 2.5-3.5 2.5h-20.9v-3.7c0-2-1.7-3.7-3.7-3.7h-29.8c-2.1 0-3.7 1.7-3.7 3.7v3.7h-20.9c-1.6 0-3-1-3.5-2.5l-11.6-34.5h109.2m1.5 19.1v58.6c0 2-1.7 3.7-3.7 3.7h-104.7c-2.1 0-3.7-1.7-3.7-3.7v-58.6l5.9 17.7c1.5 4.5 5.8 7.6 10.6 7.6h20.9v3.7c0 2 1.7 3.7 3.7 3.7h29.8c2.1 0 3.7-1.7 3.7-3.7v-3.7h20.9c4.8 0 9.1-3 10.6-7.6l6-17.7m-44.9 17.9v7.4h-22.4v-7.4h22.4m15.3-44.9v-3.2c0-6.4-5.2-11.6-11.6-11.6h-29.8c-6.4 0-11.7 5.2-11.7 11.6v3.2h-29.5c-4.4 0-7.9 3.5-7.9 7.9v77.7c0 6.4 5.2 11.6 11.7 11.6h104.7c6.4 0 11.7-5.2 11.7-11.6v-77.7c0-4.4-3.6-7.9-7.9-7.9h-29.7z"></path></svg></span>
+                <p class="u-align-center u-text u-text-default u-text-6"> With years of experience, we specialize in creating visually appealing, responsive, and high-performing websites tailored to your unique needs. From design to deployment, we’ve got you covered.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1">Contact:&nbsp;<a href="mailto:lenailin22@gmail.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">lenailin22@gmail.com</a>
+        </p>
+        <p class="u-small-text u-text u-text-variant u-text-2">©2025, Brig​htPage </p>
+        <p class="u-text u-text-3">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" href="index.html" title="Home">Home </a>
+        </p>
+        <p class="u-text u-text-4">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="Portfolio.html" data-page-id="17884039" title="Portfolio">Portfolio</a>
+        </p>
+        <p class="u-text u-text-5">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4" href="index.html" title="Home">
+            <span class="u-file-icon u-icon u-opacity u-opacity-0"><img src="images/logo.png" alt=""></span>&nbsp;Make a order
+          </a>
+        </p>
+      </div></footer><section class="u-align-center u-clearfix u-container-align-center u-cookies-consent u-grey-80 u-cookies-consent" id="gdpr">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-43 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h3 class="u-text u-text-default u-text-1">Cookies &amp; Privacy</h3>
+                  <p class="u-text u-text-default u-text-2">This website uses cookies to ensure you get the best experience on our website.</p>
+                  <div class="custom-expanded u-cookie-preferences u-cookie-preferences-1">
+                    <label class="u-form-control-hidden u-label"></label>
+                    <div class="u-form-checkbox-group-wrapper">
+                      <div class="u-input-row">
+                        <input id="field-cookie-necessary" disabled="" type="checkbox" name="cookie-preferences" value="necessary" class="u-field-input" checked="checked">
+                        <label class="u-field-label" for="field-cookie-necessary">Strictly Necessary</label>
+                      </div>
+                      <div class="u-input-row">
+                        <input id="field-cookie-analytics" checked="checked" type="checkbox" name="cookie-preferences" value="analytics" class="u-field-input">
+                        <label class="u-field-label" for="field-cookie-analytics">Analytics</label>
+                      </div>
+                      <div class="u-input-row">
+                        <input id="field-cookie-statistics" checked="checked" type="checkbox" name="cookie-preferences" value="statistics" class="u-field-input">
+                        <label class="u-field-label" for="field-cookie-statistics">Statistics</label>
+                      </div>
+                      <div class="u-input-row">
+                        <input id="field-cookie-form-submissions" checked="checked" type="checkbox" name="cookie-preferences" value="submissions" class="u-field-input">
+                        <label class="u-field-label" for="field-cookie-form-submissions">Form Submissions</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-align-left u-container-align-left u-container-style u-layout-cell u-right-cell u-size-17 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <a href="" class="u-btn u-button-decline u-button-style u-btn-1">Decline</a>
+                  <a href="###" class="u-btn u-button-confirm u-button-style u-palette-1-base u-btn-2">Confirm</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <style> .u-cookies-consent {
+  background-image: none;
+}
+
+.u-cookies-consent .u-sheet-1 {
+  min-height: 263px;
+}
+
+.u-cookies-consent .u-layout-wrap-1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.u-cookies-consent .u-layout-cell-1 {
+  min-height: 203px;
+}
+
+.u-cookies-consent .u-container-layout-1 {
+  padding: 0 60px;
+}
+
+.u-cookies-consent .u-text-1 {
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.u-cookies-consent .u-text-2 {
+  margin: 8px 20px 0 0;
+}
+
+.u-cookies-consent .u-cookie-preferences-1 {
+  width: 697px;
+  margin: 21px 0 0;
+}
+
+.u-cookies-consent .u-layout-cell-2 {
+  min-height: 203px;
+}
+
+.u-cookies-consent .u-container-layout-2 {
+  padding: 30px 29px;
+}
+
+.u-cookies-consent .u-btn-1 {
+  margin: 51px 0 0 auto;
+}
+
+.u-cookies-consent .u-btn-2 {
+  margin: -42px auto 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 131px;
+  }
+
+  .u-cookies-consent .u-layout-cell-1 {
+    min-height: 167px;
+  }
+
+  .u-cookies-consent .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-cookies-consent .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-cookies-consent .u-cookie-preferences-1 {
+    width: 554px;
+  }
+
+  .u-cookies-consent .u-layout-cell-2 {
+    min-height: 167px;
+  }
+
+  .u-cookies-consent .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-cookies-consent .u-btn-2 {
+    margin-top: -42px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 106px;
+  }
+
+  .u-cookies-consent .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-cookies-consent .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-cookies-consent .u-cookie-preferences-1 {
+    width: 456px;
+  }
+
+  .u-cookies-consent .u-layout-cell-2 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 225px;
+  }
+
+  .u-cookies-consent .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .u-cookies-consent .u-container-layout-2 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 121px;
+  }
+
+  .u-cookies-consent .u-cookie-preferences-1 {
+    width: 320px;
+  }
+}</style></section>
+  
+</body></html>

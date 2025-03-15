@@ -62,6 +62,13 @@
   background-image: none;
 }
 
+@media (max-width: 1399px) {
+  .u-section-1-1 .u-form-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
 @media (max-width: 1199px) {
   .u-section-1-1 .u-sheet-1 {
     min-height: 576px;
@@ -73,11 +80,6 @@
 
   .u-section-1-1 .u-layout-cell-2 {
     min-height: 392px;
-  }
-
-  .u-section-1-1 .u-form-1 {
-    margin-right: initial;
-    margin-left: initial;
   }
 }
 
@@ -576,6 +578,83 @@
   padding: 9px 53px 11px 51px;
 }
 
+@media (max-width: 1399px) {
+  .u-section-3 .u-line-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-2 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-3 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-4 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-5 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-6 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-7 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-8 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-9 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-10 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-11 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-12 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-13 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-14 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-line-15 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
     min-height: 715px;
@@ -585,19 +664,9 @@
     min-height: 515px;
   }
 
-  .u-section-3 .u-line-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-text-6 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-line-2 {
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-text-7 {
@@ -605,19 +674,9 @@
     margin-right: 0;
   }
 
-  .u-section-3 .u-line-3 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-text-8 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-line-4 {
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-text-9 {
@@ -629,19 +688,9 @@
     min-height: 515px;
   }
 
-  .u-section-3 .u-line-5 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-text-13 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-line-6 {
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-text-14 {
@@ -649,19 +698,9 @@
     margin-right: 0;
   }
 
-  .u-section-3 .u-line-7 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-text-15 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-line-8 {
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-line-9 {
@@ -675,11 +714,6 @@
     margin-right: 0;
   }
 
-  .u-section-3 .u-line-10 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-text-17 {
     margin-left: 0;
     margin-right: 0;
@@ -689,23 +723,8 @@
     min-height: 515px;
   }
 
-  .u-section-3 .u-line-11 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-3 .u-line-12 {
     height: 3px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-3 .u-line-13 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-3 .u-line-14 {
     margin-right: initial;
     margin-left: initial;
   }
@@ -872,6 +891,13 @@
   width: 307px;
   height: 141px;
   margin: -11px 0 -11px auto;
+}
+
+@media (max-width: 1399px) {
+  .u-section-4 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1053,6 +1079,13 @@
 
 .u-section-5 .u-text-6 {
   margin: 20px 10px 0;
+}
+
+@media (max-width: 1399px) {
+  .u-section-5 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
 
 @media (max-width: 1199px) {

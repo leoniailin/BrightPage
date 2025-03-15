@@ -605,7 +605,7 @@
   letter-spacing: 2px;
   border-style: solid;
   font-weight: 700;
-  margin: 30px 60px 0 auto;
+  margin: 30px auto 0;
   padding: 9px 53px 11px 51px;
 }
 
@@ -771,7 +771,7 @@
   }
 
   .u-section-3 .u-btn-3 {
-    margin-right: 0;
+    margin-right: auto;
   }
 }
 
@@ -804,7 +804,6 @@
 
   .u-section-3 .u-btn-3 {
     margin-top: 9px;
-    margin-right: auto;
   }
 }
 

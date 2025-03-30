@@ -1261,7 +1261,6 @@
 
 .u-section-6 .u-layout-cell-1 {
   min-height: 398px;
-  --radius: 45px;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -1326,6 +1325,10 @@
 @media (max-width: 1399px) {
   .u-section-6 .u-sheet-1 {
     min-height: 590px;
+  }
+
+  .u-section-6 .u-layout-cell-1 {
+    --radius: 45px;
   }
 
   .u-section-6 .u-social-icons-1 {

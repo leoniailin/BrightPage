@@ -3,10 +3,30 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin-bottom: 60px;
+  margin: 20px 365px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 20px 12px 60px 0;
 }
 
 .u-section-1 .u-btn-1 {
   background-image: none;
   padding: 0;
+}
+
+@media (max-width: 1399px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 185px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
 }

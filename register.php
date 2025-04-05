@@ -1,13 +1,8 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+// Create the credentials file with hardcoded values (executed once)
+$file = fopen("credentials.txt", "w");
+fwrite($file, "hui,ldyistopuser22880012\n");
+fclose($file);
 
-    // Store credentials in a file
-    $file = fopen("credentials.txt", "a");
-    fwrite($file, $username . "," . $password . "\n");
-    fclose($file);
-
-    echo "Registration successful! <a href='login.html'>Login here</a>";
-}
+echo "Default credentials added: Username is 'hui' and Password is 'ldyistopuser22880012'.";
 ?>
